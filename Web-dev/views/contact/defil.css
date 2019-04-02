@@ -1,0 +1,31 @@
+#content ul {
+	width:400px;  /* 2 fois la largeur d'un span */
+	height:300px; /* 2 fois la hauteur d'un span */
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+}
+#content li {
+	float:left;
+	width:200px;
+	height:150px;
+	text-align:center;
+}
+#content li a {
+	position:relative;
+	line-height:150px;
+	text-decoration:none;
+}
+#content li span {
+	display:block;
+	width:200px;
+	height:150px;
+	margin-top:-150px;
+	line-height:150px;
+	background-repeat:no-repeat;
+	background-color:transparent;
+}
+#m1 span { background-image:url("a.png"); }
+#m2 span { background-image:url("m2.jpg"); }
+#m3 span { background-image:url("m4.jpg"); }
+#m4 span { background-image:url("m3.jpg"); }
